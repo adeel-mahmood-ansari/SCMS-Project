@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // Compiles TypeScript down to ECMAScript 6 (ES6) standard
+    "module": "CommonJS",          // Uses CommonJS module system (required for Node.js)
+    "outDir": "./dist",            // Compiled JavaScript files will be output to the "dist" folder
+    "rootDir": "./src",            // Source TypeScript files are located in the "src" folder
+    "strict": true,                 // Enables strict type checking (recommended for safer code)
+    "esModuleInterop": true        // Enables interoperability between CommonJS and ES6 modules
+  }
+}
